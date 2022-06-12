@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px) {
+    .main-image {
+        display: none;
+    }
+
+    .content-data {
+        padding: 22px;
+    }
+
+    .body-sp {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 425px) {
+    .content-data {
+        padding: 22px 0;
+    }
+
+    .data-main {
+        width: 100%;
+        padding-top: 44px;
+    }
+
+    .list-coins {
+        display: none;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .list-coins.b-type {
+        margin-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .img-m {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 250px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .img-m > img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+    .logo {
+        padding: 0px 20px;
+    }
+
+    .content-data > h1, .content-data p {
+        padding: 0px 20px;
+    }
+
+    .list-links {
+        max-width: 100%;
+        padding: 0px 20px;
+    }
+
+    .sponsors-d {
+        margin-top: 20px;
+        padding: 0px 20px;
+    }
+
+    .head-sp > .icon-s {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .message-data > p {
+        font-size: 16px;
+    }
+
+    .space-data > p {
+        padding: 0px;
+    }
+}
